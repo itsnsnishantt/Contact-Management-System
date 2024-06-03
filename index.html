@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Management System</h1>
+        <form id="employeeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="position">Mobile No. :</label>
+            <input type="text" id="position" name="position" required>
+            
+            <label for="skills">Email:</label>
+            <input type="text" id="skills" name="skills" required>
+            
+            <button type="submit">Add Contact</button>
+        </form>
+        
+        <h2>Contact List</h2>
+        <ul id="employeeList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
